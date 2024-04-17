@@ -5,7 +5,7 @@ export default {
             contact: [
                 { information: 'Endereço', answer: 'Avenida Bahia, 761 - 58030-130, João Pessoa, PB'},
                 { information: 'Telefone/Whatsapp', answer: '(83) 99981-2066'},
-                { information: 'E-mail', answer: 'castilhoeadv@gmail.com'},
+                { information: 'E-mail', answer: 'regularcand2024@gmail.com/castilhoeadv@gmail.com'},
                 
             ]
         };
