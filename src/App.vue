@@ -2,6 +2,7 @@
 import Header from './components/Header.vue'
 import Banner from './components/Banner.vue'
 import About from './components/About.vue'
+import Informations from './components/Informations.vue'
 import Article from './components/Article.vue'
 import Date from './components/Date.vue'
 import Maps from './components/Maps.vue'
@@ -15,8 +16,9 @@ export default {
     Header,
     Banner,
     About,
-    Article,
+    Informations,
     Date,
+    Article,
     Maps,
     Faq,
     Contact
@@ -29,8 +31,9 @@ export default {
   <div class="sticky">
     <Banner/>
     <About id="Sobre Nós"/>
-    <Article id="Artigos"/>
+    <Informations/>
     <Date/>
+    <Article id="Artigos"/>
     <Maps id="Localização"/>
     <Faq/>
     <Contact id="Contato"/>
@@ -45,6 +48,7 @@ export default {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container{

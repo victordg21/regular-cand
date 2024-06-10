@@ -19,13 +19,13 @@ export default {
 
         this.loader.load().then(() => {
             this.map = new google.maps.Map(this.$refs.mapContainer, {
-                center: { lat: -7.1128995, lng:  -34.8553920 },
+                center: { lat: -7.1126525596576595, lng:  -34.85401234417924 },
                 zoom: 15,
             });
 
       // Add marker
         const marker = new google.maps.Marker({
-            position: { lat: -7.1128995, lng:  -34.8553920 },
+            position: { lat: -7.1126525596576595, lng:  -34.85401234417924 },
             map: this.map,
             title: 'Regular Cand',
         });
